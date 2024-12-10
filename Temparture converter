@@ -1,0 +1,3 @@
+celsius= float(input("Enter temparture in celsius"))
+fahrenhit=(celsius*9/5)+32
+print("Temprature in Fahrenhit:",fahrenhit)
