@@ -1,0 +1,5 @@
+lenth=int(input("Enter the lenth:"))
+breath=int(input("Enter the breath:"))
+area=2*lenth*breath
+print(area)
+print("area of perimeter is",+area)
