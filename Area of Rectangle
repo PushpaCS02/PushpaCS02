@@ -1,0 +1,5 @@
+lenth=int(input("Enter the lenth:"))
+breath=int(input("Enter the breath:"))
+area=lenth*breath
+print(area)
+print("area of rectangle is",+area)
