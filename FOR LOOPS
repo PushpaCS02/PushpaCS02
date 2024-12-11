@@ -1,0 +1,13 @@
+for i in range(5):
+  print("Inteation:",i)
+
+
+
+
+for i in range(5,10):
+  print("Inteation:",i)
+
+
+
+for i in range(5,50,5):
+  print("Inteation:",i)
