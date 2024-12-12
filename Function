@@ -1,0 +1,38 @@
+#function sntax
+def greet(name):
+  print("Hello,"+name+"!")
+greet("pushpa")
+
+
+#positional aregument
+def add(a,b):
+  return(a+b)
+print(add(6,8))
+
+
+#key word argument
+def greet(name, message):
+  print(message +","+ name +"!")
+greet(name="pushpa",message="good morning")
+
+
+#defalt Arguments
+def greet(name, message="Hello"):
+    print(message +","+ name +"!")
+greet("pushpa")
+greet("Bob","Hi")
+
+#variable length argument
+#positional argument
+def sumnumber(*number):
+  return sum(number)
+print(sumnumber(1,2,3,4,5))
+
+
+
+#variable length argument
+#**keyword argument
+def pushpa(**number):
+  for key, value in number.items():
+    print(f"{key}:{value}")
+pushpa(name="pushpa", age=25, city="New York")
