@@ -1,0 +1,23 @@
+#len()
+a=(1,2,3,4,5,6,7,)
+len(a)
+
+
+#sort()
+b=["apple","ball","cat"]
+b.sort()
+b
+
+
+#Reverse()
+c=[1,2,3,4,5,6,]
+c.reverse
+c
+
+Iterating Throuh a List
+for i in y:
+  print(i)
+
+#creating tuples
+a=(1,2,3,4,5,6,7)
+a
