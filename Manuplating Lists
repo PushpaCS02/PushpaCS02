@@ -1,0 +1,4 @@
+fruits=["apple","banana","orange"]
+fruits.append("mengo")
+fruits.remove("banana")
+print(fruits)
