@@ -1,0 +1,18 @@
+#Adding Items
+n.add(9)
+n
+
+#removing Items
+n.remove(3)
+n
+
+#Union
+a={1,2,3,4,5}
+b=(1,2,3,5,5.3,8)
+print(a.union(b))
+
+#Itersection
+print(a.intersection(b))
+
+#Difference
+print(a.difference(b))
