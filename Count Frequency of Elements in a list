@@ -1,0 +1,5 @@
+n=[1,2,2,3,3,3,4,4,4,4]
+frequency={}
+for num in n:
+  frequency[num]=frequency.get(num,0)+1
+  print("Frequency of elements:",frequency)
