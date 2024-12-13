@@ -1,0 +1,6 @@
+book={
+    "title":"Python Basics",
+    "athor":"John Doe",
+    "year":2023
+}
+print(book)
