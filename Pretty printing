@@ -1,0 +1,3 @@
+import pprint
+data={"name":"pushpa","subject":["math","science"],"gread":{"math":"A","science":"B"}}
+pprint.pprint(data)
