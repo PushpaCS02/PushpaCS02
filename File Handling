@@ -1,0 +1,2 @@
+#opening a file
+file = open("/content/pushpa.txt","r")
