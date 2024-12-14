@@ -1,0 +1,7 @@
+#Appending Data to a file
+with open("/content/pushpa.txt","a")as file:
+  file.write("cse studen\n")
+
+
+with open("/content/pushpa.txt","r")as file:
+  print(file.read())
