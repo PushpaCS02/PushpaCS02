@@ -1,0 +1,18 @@
+#read
+file = open("/content/pushpa.txt","r")
+content = file.read()
+print(content)
+file.close()
+
+
+#readline()
+file = open("/content/pushpa.txt","r")
+content = file.readline()
+print(content)
+file.close()
+
+#readlines()
+file = open("/content/pushpa.txt","r")
+content = file.readlines()
+print(content)
+file.close()
