@@ -1,0 +1,3 @@
+file = open("/content/pushpa.txt","a")
+file.write("Good morning pushpa\n")
+file.close()
