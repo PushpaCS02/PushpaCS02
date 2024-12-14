@@ -1,0 +1,6 @@
+with open("/content/pushpa.txt","w")as file:
+  file.write("Good morning pushpa\n")
+
+
+with open("/content/pushpa.txt","r") as flie: # The file object is assigned to 'flie'
+  print(flie.read()) # Use 'flie' to read the file content
