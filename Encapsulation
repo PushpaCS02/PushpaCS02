@@ -1,0 +1,22 @@
+class Person:
+  def __init__(self,name,age):
+    self.name = name
+    self.age = age
+    self.__salary = 50000 # Changed self.salary to self.__salary to create the private attribute
+
+  def get_salary(self):
+    return self.__salary
+
+  def set_salary(self,new_salary):
+    if new_salary > 0:
+      self.__salary = new_salary
+    else:
+      print("Salary cannot be negative")
+  def display_info(self):
+    print(f"Name:{self.name},Age:{self.age},Salary:{self.__salary}")
+person = Person("pushpa",18)
+print(person.name)
+print(person.age)
+print(person.get_salary())
+person.set_salary(60000)
+person.display_info()
