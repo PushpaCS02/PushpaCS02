@@ -1,0 +1,11 @@
+class Circle:
+  def __init__(self,radius):
+    self.radius = radius
+
+  # Indentation corrected to make area a method of the class
+  def area(self):  
+    return 3.14*self.radius**2 # Corrected the formula to calculate area using radius squared
+
+circle1 = Circle(5)
+print("Area:", circle1.area())
+
