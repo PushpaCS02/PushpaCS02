@@ -1,0 +1,9 @@
+#include <stdio.h>
+
+int main()
+{
+    int a=12,b=865;
+    printf("%d",(a<=b)? a: b);
+
+    return 0;
+}
